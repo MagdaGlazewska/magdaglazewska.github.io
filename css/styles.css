@@ -9,6 +9,8 @@
 p, a, ul, span {
   font-family: "Raleway", "Avenir", "Montserrat", sans-serif;
   font-size: 16px;
+  color: #464a51;
+  line-height: 1.2;
 }
 
 h1, h2, h3, h4 {
@@ -17,13 +19,13 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 80px;
-  padding: 45px;
+  font-size: 50px;
+  padding: 80px 50px 5px 50px;
 }
 
 h2 {
   font-size: 40px;
-  padding-top: 25px;
+  padding-top: 65px;
 }
 
 h3 {
@@ -36,43 +38,41 @@ h4.contact {
   margin-bottom: 0px;
 }
 
+p {
+  text-align: justify;
+}
+
 ul {
   list-style: none;
 }
 
-ul.list li {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  list-style: none;
-  border-bottom: 1px solid #eee;
-}
-
-.list {
-  padding: 0px;
-}
-
 nav {
-  width: 100%;
+  width: 80%;
   background-color: #DCDCDC;
   color: #000000;
   position: fixed;
   top: 0;
   z-index: 1;
+  overflow: hidden;
+}
+
+ul.nav {
+  text-align: center;
 }
 
 li.navigation {
+  font-size: 18px;
   float: left;
   display: block;
   color: black;
-  text-align: center;
-  padding: 12px 16px;
+  padding: 8px 16px 20px 18px;
   text-decoration: none;
   }
 
 li.navigation a {
   text-decoration: none;
   color: black;
-  padding: 30px 60px 15px 60px;
+  padding: 30px 60px 20px 60px;
 }
 
 li a:hover {
@@ -80,6 +80,17 @@ li a:hover {
       text-decoration: none;
       color: white;
       transition: all 0.5s ease-in-out;
+}
+
+.list {
+  padding: 0px;
+}
+
+ul.list li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  list-style: none;
+  border-bottom: 1px solid #eee;
 }
 
 img {
@@ -114,6 +125,7 @@ header {
 .top {
   background-color: #DCDCDC;
   background-attachment: fixed;
+  text-align: center;
 }
 
 .subtitle {
@@ -143,9 +155,8 @@ a:hover {
   transition: all 0.2s ease-in-out;
 }
 
-.insta {
-  font-size: 40px;
+a.paragraph {
   text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-weight: normal;
+  font-size: inherit;
+  color: inherit;
 }

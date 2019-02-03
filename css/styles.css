@@ -3,19 +3,20 @@
 }
 
 ::selection {
-  background: #008080;
+  background: #00adb5;
 }
 
 p, a, ul, span {
   font-family: "Raleway", "Avenir", "Montserrat", sans-serif;
   font-size: 16px;
-  color: #464a51;
-  line-height: 1.2;
+  color: #393e46;
+  line-height: 1.4;
 }
 
 h1, h2, h3, h4 {
   font-family: "Avenir", "Montserrat", sans-serif;
   font-weight: normal;
+  color: #222831;
 }
 
 h1 {
@@ -25,7 +26,7 @@ h1 {
 
 h2 {
   font-size: 40px;
-  padding-top: 65px;
+  padding-top: 70px;
 }
 
 h3 {
@@ -48,8 +49,8 @@ ul {
 
 nav {
   width: 80%;
-  background-color: #DCDCDC;
-  color: #000000;
+  background-color: #eeeeee;
+  color: #222831;
   position: fixed;
   top: 0;
   z-index: 1;
@@ -64,19 +65,18 @@ li.navigation {
   font-size: 18px;
   float: left;
   display: block;
-  color: black;
   padding: 8px 16px 20px 18px;
   text-decoration: none;
   }
 
 li.navigation a {
   text-decoration: none;
-  color: black;
-  padding: 30px 60px 20px 60px;
+  color: #222831;
+  padding: 30px 60px 30px 60px;
 }
 
 li a:hover {
-      background-color: #DAA520;
+      background-color: #00adb5;
       text-decoration: none;
       color: white;
       transition: all 0.5s ease-in-out;
@@ -90,7 +90,7 @@ ul.list li {
   padding-top: 20px;
   padding-bottom: 20px;
   list-style: none;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 img {
@@ -107,7 +107,7 @@ img.contact {
 
 section.pani {
   position: absolute;
-  margin-top: 170px;
+  margin-top: 250px;
 }
 
 header, footer {
@@ -115,7 +115,7 @@ header, footer {
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     background-color: #FBFBFB;
+     background-color: #eeeeee;
 }
 
 header {
@@ -123,7 +123,6 @@ header {
 }
 
 .top {
-  background-color: #DCDCDC;
   background-attachment: fixed;
   text-align: center;
 }
@@ -144,12 +143,12 @@ header {
 
 a {
   font-size: 15px;
-  color: #000;
+  color: #222831;
   transition: all 0.2s ease-in-out;
 }
 
 a:hover {
-  background-color: #DAA520;
+  background-color: #00adb5;
   text-decoration: none;
   color: white;
   transition: all 0.2s ease-in-out;

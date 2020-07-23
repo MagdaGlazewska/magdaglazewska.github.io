@@ -7,14 +7,14 @@
 }
 
 p, a, ul, span {
-  font-family: "Raleway", "Avenir", "Montserrat", sans-serif;
+  font-family: "Poppins", "Mulish", "Raleway", "Avenir", "Montserrat", sans-serif;
   font-size: 16px;
   color: #393e46;
   line-height: 1.4;
 }
 
 h1, h2, h3, h4 {
-  font-family: "Avenir", "Montserrat", sans-serif;
+  font-family: "Poppins", "Mulish", "Avenir", "Montserrat", sans-serif;
   font-weight: normal;
   color: #222831;
 }
